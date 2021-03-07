@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Page Title</title>
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Falling leaves provided by http://www.top-site-list.com -->
+<script src="http://www.top-site-list.com/scripts/assets/falling-leaves/rotate3Di.min.js"></script>
+<script src="http://www.top-site-list.com/scripts/assets/falling-leaves/3d-falling-leaves.min.js"></script>
+<link rel="stylesheet" href="http://www.top-site-list.com/scripts/assets/falling-leaves/3d-falling-leaves.min.css" />
+<script>
+    $(document).fallingLeaves({
+       leafStyles: 3, // Number of leaf styles in the sprite (leaves.png)
+       speedC: 2, // Speed of leaves
+        rotation: 1, // Define rotation of leaves
+        rotationTrue: 1, // Whether leaves rotate (1) or not (0)
+        numberOfLeaves: 15, // Number of leaves
+        size: 40, // General size of leaves, final size is calculated randomly (with this number as general parameter)
+cycleSpeed: 30 // Speed (see http://www.jqueryscript.net/animation) (Inverse frames per second) (10-100)
+   })
+</script>
+<style>
+h1 {
+  color: blue;
+  text-align: center;
+} 
+</style>
+
+<style>
+p {
+  color: red;
+  text-align: center;
+} 
+</style>
+<h1>YAMAHA XV 750</h1>
+<p>cafe racer model</p>
+<img src="yamaha-xv750.jpg" width="300" height="200">
+
+<p>tourer model</p>
+<img src="yamaha-tourer.jpg" width="300" height="200">
+
+</body>
+</html>
